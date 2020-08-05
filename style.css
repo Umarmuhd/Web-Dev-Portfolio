@@ -1,0 +1,667 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: #001233;
+  overflow-x: hidden;
+}
+h1 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 96px;
+  text-align: center;
+}
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 36px;
+  color: #001233;
+}
+h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  align-items: center;
+  color: #001233;
+}
+h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+p {
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  color: #001233;
+}
+.wapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 20px 148px 20px 110px;
+  background: #f2f2f2;
+  color: #001233;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #001233;
+  padding: 0;
+}
+.brand-image{
+  width: 52px;
+  height: 52px;
+}
+.nav-item {
+  margin: 0 20px;
+}
+li:nth-last-of-type(1) {
+  margin-right: 0;
+}
+.nav-link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #001233;
+}
+
+/* Header */
+.hero-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  height: calc(100vh - 100px);
+}
+
+.hero-content {
+  /* padding: 153px 16px 286px 184px; */
+  padding-top: 153px;
+  /* width: 383px; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hire-me {
+  background: #001845;
+  padding: 16px 66px 16px 65px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.hero-image {
+  width: 599px;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 621px;
+}
+
+.elipse-left {
+  position: absolute;
+  top: 194px;
+  left: 243px;
+  z-index: -1;
+}
+.elipse-right {
+  position: absolute;
+  top: 185px;
+  right: 0;
+}
+
+/* About Me */
+#about-me {
+  padding: 100px;
+  text-align: center;
+  background: #f2f2f2;
+}
+.about-me-heading {
+  margin: 0;
+  padding-bottom: 24px;
+}
+.about-me-paragraph {
+  width: 768px;
+  margin: 0 auto;
+  margin-bottom: 52px;
+  text-align: center;
+}
+.download-resume {
+  padding: 16px 24px 16px 25px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  background: #001845;
+  margin-top: 16px;
+}
+
+/* Services */
+#services {
+  padding: 100px 184px 50px;
+  text-align: center;
+}
+.services-heading {
+  padding-bottom: 16px;
+}
+.services-paragraph {
+  width: 998px;
+  margin: 0 auto;
+  padding-bottom: 36px;
+}
+
+.service {
+  padding: 40px 0 30px;
+  text-align: center;
+}
+.services-top {
+  margin-bottom: 20px;
+}
+.design-developement {
+  background: rgba(200, 180, 4, 0.23);
+  border-radius: 3px;
+  margin-right: 20px;
+}
+.e-commerce {
+  background: rgba(4, 102, 200, 0.23);
+  border-radius: 3px;
+}
+.mobile-friendly {
+  background: rgba(126, 4, 200, 0.23);
+  border-radius: 3px;
+  margin-right: 20px;
+}
+.analytics {
+  background: rgba(31, 200, 4, 0.23);
+  border-radius: 3px;
+}
+
+.service-container-paragraph {
+  width: 425px;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  color: #001233;
+}
+.service-container-heading {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+/* Latest Work */
+#work {
+  padding: 50px 119px;
+  text-align: center;
+}
+
+.work-tabs {
+  margin-left: 60px;
+  margin-top: 70px;
+  list-style: none;
+}
+
+.work-tabs__item {
+  margin-right: 42px;
+}
+.work-tabs__item a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(0, 18, 51, 0.6);
+}
+
+.work-tabs__item.active a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #001233;
+}
+
+/* .work-image-container{
+  
+} */
+
+.work-image-container-1 {
+  width: 588px;
+  height: 602px;
+  margin-right: 26px;
+  padding: 0;
+}
+
+.work-image-container-2 {
+  width: 281px;
+  height: 288px;
+  padding: 0;
+}
+.work-image-container-3 {
+  width: 588px;
+  height: 288px;
+}
+.work-image {
+  width: 100%;
+  height: 100%;
+}
+.work-top {
+  margin-bottom: 29px;
+}
+.work-sub-top {
+  margin-bottom: 26px;
+  padding: 0;
+}
+.work-sub {
+  margin-right: 26px;
+}
+
+/* Work Experience */
+#work-experience {
+  padding: 50px 119px;
+  text-align: center;
+}
+.work-experience-box {
+  background: #f2f2f2;
+  text-align: left;
+}
+.work-experience {
+  text-align: left;
+  padding: 76px 0px 97px 35px;
+}
+.work-experience h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  color: #001233;
+  margin: 0;
+}
+.line {
+  text-align: left;
+  border-right: 1px solid #001233;
+}
+.line h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #001233;
+}
+.line p {
+  text-align: left;
+  width: auto;
+}
+.line-1 {
+  padding-right: 33px;
+}
+.line-2 {
+  padding-right: 33px;
+  padding-left: 29px;
+}
+.line-3 {
+  padding-left: 29px;
+  border: none;
+}
+.work-experience-2 h4 {
+  padding-left: 29px;
+}
+.bg-bottom-right {
+  position: absolute;
+  right: 0;
+  top: 3588px;
+  z-index: -1;
+}
+
+/* Contact Me */
+#contact {
+  padding: 50px 334px 95px 335px;
+  text-align: center;
+}
+.contact-heading {
+  margin-bottom: 68px;
+}
+.contact-form {
+  background: #f2f2f2;
+  padding: 46px 35px 37px 36px;
+  text-align: left;
+}
+.form-group {
+  margin: 0;
+}
+.form-group label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #001233;
+  margin-bottom: 4px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  height: 76px;
+  margin-bottom: 32px;
+}
+
+.messageText {
+  min-height: 188px;
+  resize: vertical;
+}
+.send-message-container {
+  text-align: center;
+  margin-top: 50px;
+}
+.send-message {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  padding: 16px 33px 16px 34px;
+  background: #001845;
+}
+.pink-left {
+  position: absolute;
+  left: 0;
+  top: 4100px;
+}
+
+/* Footer */
+#footer {
+  background: #0466c8;
+  color: #ffffff;
+  padding: 12px 75px;
+}
+
+.social-icon a {
+  margin-right: 60px;
+  
+  justify-content: flex-end;
+}
+
+.social-icon a:nth-last-of-type(1) {
+  margin-right: 0;
+}
+
+.copyright-container {
+  text-align: center;
+}
+
+.hide-on-desktop {
+  display: none;
+}
+
+@media all and (max-width: 720px) {
+  /* Header */
+  .hero-content h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    align-items: center;
+    color: #001233;
+  }
+  .hero-content p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 26px;
+    align-items: center;
+    color: #001233;
+  }
+  .hire-me {
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 6px 27px;
+    background: #001845;
+  }
+
+  /* About-me */
+  #about-me {
+    padding: 25px 30px;
+  }
+  .about-me-heading {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    align-items: center;
+    color: #001233;
+    margin-bottom: 6px;
+    padding: 0;
+  }
+  .about-me-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    padding-bottom: 0px;
+    color: #001233;
+    margin-bottom: 24px;
+  }
+  .download-resume {
+    padding: 9px 21px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #001845;
+  }
+
+  /* Services */
+  #services {
+    padding: 25px 16px 15px;
+  }
+  .services-heading {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    align-items: center;
+    color: #001233;
+    padding: 0;
+  }
+  .services-paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #001233;
+    width: 91.47%;
+    margin: 0 auto;
+  }
+  .service {
+    padding: 32px 0px;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+  .service h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    align-items: center;
+    color: #001233;
+    margin: 0;
+  }
+  .service p {
+    width: 61.22%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #001233;
+  }
+  .services-top {
+    margin-bottom: 0px;
+  }
+
+  /* Work */
+  #work {
+    padding: 10px 14px;
+  }
+  .work-heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    align-items: center;
+  }
+  .work-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+  .work-image-container {
+    width: 77.33%;
+    margin: 0 auto;
+    height: 231px;
+    margin-bottom: 12px;
+  }
+  .work-image {
+    width: 100%;
+  }
+  .work-sub-top,
+  .work-top {
+    margin-bottom: 12px;
+  }
+
+  /* Work Experience */
+  #work-experience {
+    padding: 15px 0;
+  }
+  .work-experience-heading {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    align-items: center;
+    color: #001233;
+  }
+  .work-experience-paragraph {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+  .work-experience {
+    padding: 49px 5px 52px 0;
+    border: none;
+    text-align: left;
+    border-left: 1px solid #001233;
+    margin-top: 12px;
+  }
+  .line {
+    padding: 0;
+    border: none;
+  }
+  .work-experience h4 p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+    padding: 0;
+  }
+  .work-experience h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+  }
+  .work-experience p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+  }
+
+  /* Contact me */
+  #contact {
+    padding: 10px 0;
+  }
+  .contact-heading {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    margin-bottom: 12px;
+  }
+  .form-group label {
+    font-size: 16px;
+    line-height: 36px;
+    color: #001233;
+  }
+  .form-group input {
+    height: 48px;
+    margin-bottom: 11px;
+  }
+  .form-group textarea {
+    margin-bottom: 24px;
+  }
+  .send-message-container {
+    text-align: left;
+  }
+
+  /* Contact info starts here */
+  #contact-info {
+   padding: 32px 17px;
+  }
+  .hide-on-desktop {
+    display: block;
+  }
+  .contact-info-heading {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #001233;
+  }
+  .hide-on-desktop h5 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #001233;
+  }
+
+  /* Footer */
+  #footer{
+    padding: 12px 0;
+    text-align: center;    
+  }
+  .social-icon{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 14px;
+  }
+  .social-icon a{
+    margin-right: 29.5px;
+  }
+  .social-icon a:nth-last-of-type(1){
+    margin: 0;
+  }
+}
